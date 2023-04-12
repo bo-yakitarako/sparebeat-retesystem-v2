@@ -1,0 +1,12 @@
+{
+    "name": "Sparebeat Rate System v2",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Sparebeat Rate System v2",
+    "content_scripts": [
+        {
+            "matches": ["https://beta.sparebeat.com/*"],
+            "js": ["index.js"]
+        }
+    ]
+}
